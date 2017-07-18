@@ -111,23 +111,73 @@ dtb-$(CONFIG_ARCH_MDMCALIFORNIUM) += mdmcalifornium-sim.dtb \
 	mdmcalifornium-emmc-mtp.dtb \
 	mdmcalifornium-nand-mtp.dtb
 
-dtb-$(CONFIG_ARCH_MSM8937) += msm8937-rumi.dtb \
-	msm8937-pmi8950-cdp.dtb \
-	msm8937-pmi8937-cdp.dtb \
-	msm8937-pmi8950-ext-codec-cdp.dtb \
-	msm8937-pmi8950-mtp.dtb \
-	msm8937-pmi8937-mtp.dtb \
-	msm8937-pmi8950-rcm.dtb \
-	msm8937-pmi8937-rcm.dtb \
-	msm8937-pmi8950-qrd-sku1.dtb \
-	msm8937-pmi8937-qrd-sku2.dtb \
-	msm8937-pmi8950-qrd-sku1-dvt1.dtb \
-	msm8937-pmi8937-qrd-sku2-dvt1.dtb \
-	apq8037-pmi8950-cdp.dtb \
-	apq8037-pmi8937-cdp.dtb \
-	apq8037-pmi8950-mtp.dtb \
-	apq8037-pmi8937-mtp.dtb \
-	msm8937-pmi8950-qrd-wt88537_64.dtb
+dtb-$(CONFIG_ARCH_MSM8937) += \
+    msm8937-0.dtb \
+    msm8937-10.dtb \
+    msm8937-11.dtb \
+    msm8937-12.dtb \
+    msm8937-13.dtb \
+    msm8937-14.dtb \
+    msm8937-15.dtb \
+    msm8937-16.dtb \
+    msm8937-17.dtb \
+    msm8937-18.dtb \
+    msm8937-19.dtb \
+    msm8937-1.dtb \
+    msm8937-20.dtb \
+    msm8937-21.dtb \
+    msm8937-22.dtb \
+    msm8937-23.dtb \
+    msm8937-24.dtb \
+    msm8937-25.dtb \
+    msm8937-26.dtb \
+    msm8937-27.dtb \
+    msm8937-28.dtb \
+    msm8937-29.dtb \
+    msm8937-2.dtb \
+    msm8937-30.dtb \
+    msm8937-31.dtb \
+    msm8937-32.dtb \
+    msm8937-33.dtb \
+    msm8937-34.dtb \
+    msm8937-35.dtb \
+    msm8937-36.dtb \
+    msm8937-37.dtb \
+    msm8937-38.dtb \
+    msm8937-39.dtb \
+    msm8937-3.dtb \
+    msm8937-40.dtb \
+    msm8937-41.dtb \
+    msm8937-42.dtb \
+    msm8937-43.dtb \
+    msm8937-44.dtb \
+    msm8937-45.dtb \
+    msm8937-46.dtb \
+    msm8937-47.dtb \
+    msm8937-48.dtb \
+    msm8937-49.dtb \
+    msm8937-4.dtb \
+    msm8937-50.dtb \
+    msm8937-51.dtb \
+    msm8937-52.dtb \
+    msm8937-53.dtb \
+    msm8937-54.dtb \
+    msm8937-55.dtb \
+    msm8937-56.dtb \
+    msm8937-57.dtb \
+    msm8937-58.dtb \
+    msm8937-59.dtb \
+    msm8937-5.dtb \
+    msm8937-60.dtb \
+    msm8937-61.dtb \
+    msm8937-62.dtb \
+    msm8937-63.dtb \
+    msm8937-64.dtb \
+    msm8937-65.dtb \
+    msm8937-6.dtb \
+    msm8937-7.dtb \
+    msm8937-8.dtb \
+    msm8937-9.dtb
 
 dtb-$(CONFIG_ARCH_MSMGOLD) += msmgold-rumi.dtb \
 	apqgold-pmi8937-cdp.dtb \

@@ -20,7 +20,7 @@
 #include <linux/sched.h>
 #include <linux/usb/g_hid.h>
 
-#include "u_f.h"
+#include "../u_f.h"
 
 static int major, minors;
 static struct class *hidg_class;

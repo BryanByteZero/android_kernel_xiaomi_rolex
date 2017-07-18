@@ -1615,7 +1615,8 @@ struct subsys_device *subsys_register(struct subsys_desc *desc)
 	subsys->desc->sysmon_pid = -1;
 	strlcpy(subsys->desc->fw_name, desc->name,
 			sizeof(subsys->desc->fw_name));
-	if (0 == strncmp(WT_SUBSYSTEM_REASTART_LEVEL, "SYSTEM", 6)) {
+	/*
+  if (0 == strncmp(WT_SUBSYSTEM_REASTART_LEVEL, "SYSTEM", 6)) {
 		printk("XXX::restartlevel system\r\n");
 		subsys->restart_level = RESET_SOC;
 	}
@@ -1624,6 +1625,7 @@ struct subsys_device *subsys_register(struct subsys_desc *desc)
 		printk("XXX::restartlevel related\r\n");
 		subsys->restart_level = RESET_SUBSYS_COUPLED;
 	}
+  */
 
 	subsys->notify = subsys_notif_add_subsys(desc->name);
 
